@@ -1,0 +1,92 @@
+/*Contact page*/
+#contact{
+    display: flex;
+    flex-direction: column;
+    background-color: #101F2D;
+    height: 800px;
+
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#contact h2{
+    color: #FFD707;
+    position: relative;
+    right:160px;
+    bottom:10px;
+}
+
+
+#contact form{
+    box-sizing: border-box;
+    padding: 50px;
+    border: 1px solid #928D8D;
+    border-radius: 1rem;
+    margin-left: 500px;
+    background-color:#182B3C ;
+}
+#contact input,textarea{
+    background-color:#2f3e4b;
+    border-radius: 0.4rem;
+    border:1px solid#928D8D;
+    color: white;
+}
+#contact form a{
+    background: #FFD707;
+    margin-left: 35%;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 35px;
+    border-radius: 70cm;
+}
+
+   
+    
+
+.socialmedia{
+    position: relative;
+    flex-direction: row;
+    left: -500px;
+    bottom: -60px;
+  
+}
+.socialmedia a{
+    color:white;
+    width: 20px;
+    font-size: 30px;
+    margin: 20px;
+    text-decoration: none;
+}
+.mobicon{
+    position:relative;
+    left:47px;
+    bottom:10px;
+    font-size: larger;
+}
+.mobile p{
+    position: static;
+    bottom: 50px;
+    left:100px;
+    width: 80%;
+    margin-left: 36px;
+    height: 40px;
+    margin-top: 300px;
+    pointer-events: none;
+}
+.email i{
+    position: relative;
+    left:50px;
+    top:-40px;
+    font-size: large;
+}
+.email p{
+    position: relative;
+    top:-67px;
+    width: 80%;
+    margin-left: 56px;
+    height: 40px;
+    margin-top: 30px;
+    pointer-events: none;
+}
